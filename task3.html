@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internship Project - Advanced Styling & JS</title>
+  <link rel="stylesheet" href="task3.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌐 Advanced Styling & JavaScript quiz app</h1>
+    <p>Responsive Design | Interactive Quiz | API Integration</p>
+  </header>
+
+  <main>
+    <section class="responsive-demo">
+      <h2>Responsive Layout Demo</h2>
+      <div class="grid-container">
+        <div class="grid-item">Mobile</div>
+        <div class="grid-item">Tablet</div>
+        <div class="grid-item">Desktop</div>
+      </div>
+    </section>
+
+    <section class="quiz-section">
+      <h2>🧠 Interactive Quiz</h2>
+      <div id="quiz-container">
+        <p id="question"></p>
+        <div id="options"></div>
+        <div class="quiz-controls">
+          <button id="next-btn">Next</button>
+          <button id="restart-btn" style="display:none;">Restart</button>
+        </div>
+        <p id="progress"></p>
+        <p id="result"></p>
+      </div>
+    </section>
+
+    <section class="api-section">
+      <h2>🌤️ Live Data (Joke API)</h2>
+      <div id="api-data">Click below to get a random joke!</div>
+      <button id="load-joke">Get Joke</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by srinu | © 2025</p>
+  </footer>
+
+  <script src="task3.js"></script>
+</body>
+</html>
